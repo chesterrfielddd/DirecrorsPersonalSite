@@ -1,0 +1,38 @@
+// @use "./reset.scss";
+@use "./assets/styles/_fonts.scss";
+
+* {
+  font-family: "IBMPlexMono", monospace;
+  // font-size: 18px;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond";
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 100px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 30px;
+  font-style: italic;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 30px;
+}
